@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SnakeEye</string>
+    <string name="tagline">Learn. Stay Safe. Protect Snake</string>
+
+    <string name="ob1_title">Identify Any Snake Instantly</string>
+    <string name="ob1_desc">Use your camera to identify Sri Lankan snakes in real time.</string>
+
+    <string name="ob2_title">Learn &amp; Stay Safe</string>
+    <string name="ob2_desc">Get facts, venom risk, and safety tips about each species.</string>
+
+    <string name="ob3_title">Track Your Sightings</string>
+    <string name="ob3_desc">Record and share your snake encounters &amp; unlock achievements.</string>
+
+    <string name="next">NEXT</string>
+    <string name="lets_go">LET’S GO</string>
+    <string name="skip">SKIP</string>
+</resources>

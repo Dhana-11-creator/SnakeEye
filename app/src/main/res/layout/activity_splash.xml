@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/mint_bg"
+    android:padding="@dimen/space_24">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/snakelogo"
+        android:contentDescription="@string/app_name"
+        android:elevation="6dp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/space_16"
+        android:text="@string/app_name"
+        android:textColor="@color/green_primary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/space_8"
+        android:text="@string/tagline"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

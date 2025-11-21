@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Camera body background -->
+    <path
+        android:fillColor="@color/green_primary"
+        android:pathData="M30,60 h140 a20,20 0 0,1 20,20 v80 a20,20 0 0,1 -20,20 h-140 a20,20 0 0,1 -20,-20 v-80 a20,20 0 0,1 20,-20 z" />
+
+    <!-- Camera top part -->
+    <path
+        android:fillColor="@color/green_primary"
+        android:pathData="M60,40 h80 a10,10 0 0,1 10,10 v10 h-100 v-10 a10,10 0 0,1 10,-10 z" />
+
+    <!-- Camera lens outer ring -->
+    <path
+        android:fillColor="@color/gray_dark"
+        android:pathData="M100,85
+                          A35,35 0 1,0 100,155
+                          A35,35 0 1,0 100,85" />
+
+    <!-- Camera lens -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M100,90
+                          A30,30 0 1,0 100,150
+                          A30,30 0 1,0 100,90" />
+
+    <!-- Inner lens -->
+    <path
+        android:fillColor="@color/green_dark"
+        android:pathData="M100,100
+                          A20,20 0 1,0 100,140
+                          A20,20 0 1,0 100,100" />
+
+    <!-- Lens center -->
+    <path
+        android:fillColor="@color/gray_dark"
+        android:pathData="M100,112
+                          A8,8 0 1,0 100,128
+                          A8,8 0 1,0 100,112" />
+
+    <!-- Flash -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M150,72
+                          A8,8 0 1,0 150,88
+                          A8,8 0 1,0 150,72" />
+
+    <!-- Viewfinder -->
+    <path
+        android:fillColor="@color/gray_dark"
+        android:pathData="M132,70
+                          h11
+                          a2,2 0 0,1 2,2
+                          v6
+                          a2,2 0 0,1 -2,2
+                          h-11
+                          a2,2 0 0,1 -2,-2
+                          v-6
+                          a2,2 0 0,1 2,-2 z" />
+
+</vector>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mint_bg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- App Logo -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/snakelogo"
+            android:contentDescription="@string/app_name"
+            android:layout_marginTop="40dp"/>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SnakeEye"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instant snake identification &amp; safety"
+            android:textSize="16sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Identify Snake Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnIdentifySnake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identify Snake Now"
+            android:drawableLeft="@drawable/baseline_camera_alt_24"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button_orange"
+            android:drawablePadding="6dp"
+            android:layout_marginTop="60dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:padding="14dp"/>
+
+        <!-- Info Box -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 Create an account to save identifications, track local sightings, and get personalized alerts"
+            android:background="@drawable/bg_info_box"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"
+            android:textColor="@color/blue_text"/>
+
+        <!-- Secondary Buttons -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnViewSightings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Recent Sightings"
+            android:textColor="@color/green_primary"
+            android:background="@drawable/bg_button_outline"
+            android:textAllCaps="false"
+            android:layout_marginTop="40dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account / Login"
+            android:textColor="@color/green_primary"
+            android:background="@drawable/bg_button_outline"
+            android:textAllCaps="false"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Footer Note -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No registration required for snake identification.\nAll core features work instantly."
+            android:textSize="13sp"
+            android:textColor="@color/text_secondary"
+            android:gravity="center"
+            android:layout_marginTop="24dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/space_24"
+    android:paddingRight="@dimen/space_24"
+    android:paddingTop="@dimen/space_32"
+    android:paddingBottom="@dimen/space_32">
+
+    <!-- Big icon -->
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_camera"
+        android:contentDescription="@string/app_name"/>
+
+    <!-- Dots: directly under the icon (as you wanted) -->
+    <LinearLayout
+        android:id="@+id/dotsRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/space_24"
+        android:orientation="horizontal">
+
+        <View android:id="@+id/dot1"
+            android:layout_width="10dp" android:layout_height="10dp"
+            android:background="@drawable/dot_active"/>
+
+        <View
+            android:id="@+id/space1"
+            android:layout_width="12dp" android:layout_height="10dp" />
+
+        <View android:id="@+id/dot2"
+            android:layout_width="10dp" android:layout_height="10dp"
+            android:background="@drawable/dot_inactive"/>
+
+        <View
+            android:id="@+id/space2"
+            android:layout_width="12dp" android:layout_height="10dp" />
+
+        <View android:id="@+id/dot3"
+            android:layout_width="10dp" android:layout_height="10dp"
+            android:background="@drawable/dot_inactive"/>
+    </LinearLayout>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/TextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/space_24"
+        android:text="@string/ob1_title"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/tvDesc"
+        style="@style/TextBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/space_16"
+        android:text="@string/ob1_desc"/>
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- CTA -->
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/Widget.PrimaryButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

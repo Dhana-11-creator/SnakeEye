@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mint_bg">#E9F9EE</color>
+    <color name="green_primary">#1B5E20</color>
+    <color name="green_main">#8AE428</color>
+    <color name="green_dark">#0F4D1C</color>
+    <color name="text_primary">#143C1A</color>
+    <color name="text_secondary">#4D6355</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="shadow_16">#29000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#9E9E9E</color>
+    <color name="gray_dark">#424242</color>
+    <color name="red_marker">#F44336</color>
+    <color name="green_marker">#8BC34A</color>
+    <color name="blue_text">#3F61B4</color>
+    <color name="light_blue">#39AAD3</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="lightGreen">#49B14B</color>
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="colorAccent">#FF7043</color>
+    <color name="orange_primary">#FF7043</color>
+    <color name="orange_dark">#FF5722</color>
+    <color name="text_hint">#999999</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="venomous_high">#D32F2F</color>
+    <color name="venomous_moderate">#F57C00</color>
+    <color name="venomous_mild">#FBC02D</color>
+    <color name="non_venomous">#388E3C</color>
+    <color name="venomous_unknown">#757575</color> </resources>
